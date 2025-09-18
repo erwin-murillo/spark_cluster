@@ -62,3 +62,16 @@ You can adjust the number of workers by changing the `--scale spark-worker=<numb
 ## License
 
 This project is licensed under the MIT License.
+
+## Notes
+
+To get a shell inside the container:
+
+```bash
+docker exec -it <cointainer_id> /bin/bash
+```
+
+To run Jupyter notebook
+```bash
+jupyter notebook --no-browser --allow-root --ip=0.0.0.0
+```
