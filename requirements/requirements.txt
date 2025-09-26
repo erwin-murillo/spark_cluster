@@ -4,3 +4,4 @@ pyarrow
 numpy
 pyspark
 jupyter
+kotlin-jupyter-kernel
